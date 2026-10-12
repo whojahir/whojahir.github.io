@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume of Jahir Hossain, a MERN Stack Developer and B.Tech Information Technology student.">
+  <meta name="theme-color" content="#080808">
+  <title>Resume | Jahir Hossain</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header no-print">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="index.html">Jahir Hossain<span>.</span></a>
+      <div class="resume-actions">
+        <button class="btn btn-primary" type="button" onclick="window.print()">Print / Save PDF</button>
+        <a class="nav-contact" href="index.html">Back to portfolio <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="resume-page container">
+    <section class="resume-header">
+      <p class="eyebrow">WEB DEVELOPER</p>
+      <h1>Jahir Hossain</h1>
+      <p class="resume-role">MERN Stack Developer</p>
+      <p class="resume-contact">jahirhossain5851843@gmail.com · <a href="https://github.com/whojahir" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://www.linkedin.com/in/jahir-hossain-62287223a/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Profile</h2>
+      <p>B.Tech Information Technology student and web developer focused on building responsive, practical web applications with React, Node.js, Express, and MongoDB.</p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Skills</h2>
+      <div class="resume-skills">
+        <p><strong>Frontend:</strong> HTML, CSS, JavaScript, React</p>
+        <p><strong>Backend:</strong> Node.js, Express.js</p>
+        <p><strong>Database:</strong> MongoDB</p>
+        <p><strong>Tools:</strong> Git, GitHub</p>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Projects</h2>
+      <article class="resume-project">
+        <h3>KrishiVerse</h3>
+        <p class="resume-meta">MERN stack · Final-year project · In progress</p>
+        <p>An AI-based farm simulation and resilience framework developed as a college final-year project.</p>
+      </article>
+      <article class="resume-project">
+        <h3>Calculator</h3>
+        <p class="resume-meta">HTML · CSS · JavaScript</p>
+        <p>A focused calculator application built to practice interface structure, styling, and JavaScript fundamentals.</p>
+      </article>
+      <article class="resume-project">
+        <h3>To-Do List</h3>
+        <p class="resume-meta">HTML · CSS · JavaScript</p>
+        <p>A responsive productivity tool for organizing tasks and practicing JavaScript interaction.</p>
+      </article>
+    </section>
+
+    <section class="resume-section">
+      <h2>Education</h2>
+      <p><strong>B.Tech in Information Technology</strong></p>
+      <p>Currently completing an Information Technology degree.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer no-print">
+    <p>© <span id="year"></span> Jahir Hossain.</p>
+  </footer>
+  <script>document.querySelector('#year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
